@@ -6,7 +6,6 @@
     [[BHContext shareInstance] setApplication:application];
     [[BHContext shareInstance] setLaunchOptions:launchOptions];
     [[BHContext shareInstance] setModuleConfigName:@"BeeHive.bundle/BeeHive"];
-    [[BHContext shareInstance] setServiceConfigName:@"BeeHive.bundle/BeeHive"];
 
     return YES;
 }
